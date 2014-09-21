@@ -1,0 +1,44 @@
+Feb 15, 2014 3:20:43 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre6\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\PROGRA~1\TIEDUC~1\TI-83P~1\UTILS
+Feb 15, 2014 3:22:04 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 15, 2014 3:22:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 15, 2014 3:22:14 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 115962 ms
+Feb 15, 2014 3:22:22 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Feb 15, 2014 3:22:22 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.42
+Feb 15, 2014 3:22:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\xampp2\tomcat\webapps\docs
+Feb 15, 2014 3:22:38 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,000] milliseconds.
+Feb 15, 2014 3:22:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\xampp2\tomcat\webapps\examples
+Feb 15, 2014 3:22:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\xampp2\tomcat\webapps\host-manager
+Feb 15, 2014 3:23:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\xampp2\tomcat\webapps\manager
+Feb 15, 2014 3:23:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\xampp2\tomcat\webapps\ROOT
+Feb 15, 2014 3:23:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Feb 15, 2014 3:23:18 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 15, 2014 3:23:18 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 63893 ms
+Feb 15, 2014 6:36:21 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Feb 15, 2014 6:36:28 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Feb 15, 2014 6:36:30 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Feb 15, 2014 6:36:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Feb 15, 2014 6:36:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Feb 15, 2014 6:36:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Feb 15, 2014 6:36:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

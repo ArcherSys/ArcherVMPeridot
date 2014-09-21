@@ -1,0 +1,517 @@
+Aug 28, 2014 5:35:40 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\QuickTime\QTSystem\;.
+Aug 28, 2014 5:35:45 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 28, 2014 5:35:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 28, 2014 5:35:46 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 10990 ms
+Aug 28, 2014 5:35:46 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 28, 2014 5:35:46 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.42
+Aug 28, 2014 5:35:46 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive E:\xampp\tomcat\webapps\jenkins.war
+Aug 28, 2014 5:41:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\ROOT
+Aug 28, 2014 5:41:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\manager
+Aug 28, 2014 5:41:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\host-manager
+Aug 28, 2014 5:41:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\examples
+Aug 28, 2014 5:41:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\docs
+Aug 28, 2014 5:41:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\ArcherCraft_Mainframe
+Aug 28, 2014 5:41:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\jre
+Aug 28, 2014 5:41:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\war
+Aug 28, 2014 5:41:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Aug 28, 2014 5:42:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\plugins
+Aug 28, 2014 5:42:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\jobs
+Aug 28, 2014 5:42:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\secrets
+Aug 28, 2014 5:42:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\userContent
+Aug 28, 2014 5:42:25 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 28, 2014 5:42:26 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 28, 2014 5:42:26 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 399905 ms
+Aug 28, 2014 5:42:28 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Aug 28, 2014 5:43:25 PM jenkins.InitReactorRunner$1 onTaskFailed
+SEVERE: Failed Inspecting plugin C:\Users\student\.jenkins\plugins\ldap.jpi
+java.io.IOException: Plugin installation failed. No manifest at C:\Users\student\.jenkins\plugins\ldap\META-INF\MANIFEST.MF
+	at hudson.ClassicPluginStrategy.createPluginWrapper(ClassicPluginStrategy.java:155)
+	at hudson.PluginManager$1$3$1.run(PluginManager.java:240)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:282)
+	at jenkins.model.Jenkins$7.runTask(Jenkins.java:905)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:210)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 28, 2014 5:43:31 PM jenkins.InitReactorRunner$1 onTaskFailed
+SEVERE: Failed Inspecting plugin C:\Users\student\.jenkins\plugins\mailer.jpi
+java.nio.file.FileSystemException: C:\Users\student\.jenkins\plugins\mailer\WEB-INF\lib\classes.jar: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+	at java.nio.file.Files.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at hudson.Util.deleteFile(Util.java:247)
+	at hudson.Util.deleteRecursive(Util.java:310)
+	at hudson.Util.deleteContentsRecursive(Util.java:212)
+	at hudson.Util.deleteRecursive(Util.java:301)
+	at hudson.Util.deleteContentsRecursive(Util.java:212)
+	at hudson.Util.deleteRecursive(Util.java:301)
+	at hudson.Util.deleteContentsRecursive(Util.java:212)
+	at hudson.Util.deleteRecursive(Util.java:301)
+	at hudson.ClassicPluginStrategy.explode(ClassicPluginStrategy.java:477)
+	at hudson.ClassicPluginStrategy.createPluginWrapper(ClassicPluginStrategy.java:150)
+	at hudson.PluginManager$1$3$1.run(PluginManager.java:240)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:282)
+	at jenkins.model.Jenkins$7.runTask(Jenkins.java:905)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:210)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 28, 2014 5:43:32 PM jenkins.InitReactorRunner$1 onTaskFailed
+SEVERE: Failed Inspecting plugin C:\Users\student\.jenkins\plugins\mailer.jpi
+java.io.IOException: Plugin installation failed. No manifest at C:\Users\student\.jenkins\plugins\mailer\META-INF\MANIFEST.MF
+	at hudson.ClassicPluginStrategy.createPluginWrapper(ClassicPluginStrategy.java:155)
+	at hudson.PluginManager$1$3$1.run(PluginManager.java:240)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:282)
+	at jenkins.model.Jenkins$7.runTask(Jenkins.java:905)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:210)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 28, 2014 5:43:34 PM jenkins.InitReactorRunner$1 onTaskFailed
+SEVERE: Failed Inspecting plugin C:\Users\student\.jenkins\plugins\matrix-auth.jpi
+java.io.IOException: Plugin installation failed. No manifest at C:\Users\student\.jenkins\plugins\matrix-auth\META-INF\MANIFEST.MF
+	at hudson.ClassicPluginStrategy.createPluginWrapper(ClassicPluginStrategy.java:155)
+	at hudson.PluginManager$1$3$1.run(PluginManager.java:240)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:282)
+	at jenkins.model.Jenkins$7.runTask(Jenkins.java:905)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:210)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 28, 2014 5:43:38 PM jenkins.InitReactorRunner$1 onTaskFailed
+SEVERE: Failed Inspecting plugin C:\Users\student\.jenkins\plugins\maven-plugin.jpi
+java.nio.file.DirectoryNotEmptyException: C:\Users\student\.jenkins\plugins\maven-plugin
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+	at java.nio.file.Files.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at hudson.Util.deleteFile(Util.java:247)
+	at hudson.Util.deleteRecursive(Util.java:310)
+	at hudson.ClassicPluginStrategy.explode(ClassicPluginStrategy.java:477)
+	at hudson.ClassicPluginStrategy.createPluginWrapper(ClassicPluginStrategy.java:150)
+	at hudson.PluginManager$1$3$1.run(PluginManager.java:240)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:282)
+	at jenkins.model.Jenkins$7.runTask(Jenkins.java:905)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:210)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 28, 2014 5:45:14 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Aug 28, 2014 5:45:16 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Aug 28, 2014 5:45:18 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Aug 28, 2014 5:45:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Aug 28, 2014 5:45:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Aug 28, 2014 5:46:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Aug 28, 2014 5:46:32 PM jenkins.InitReactorRunner$1 onTaskFailed
+SEVERE: Failed Loading plugin maven-plugin
+java.io.IOException: Dependency mailer (1.7) doesn't exist
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:488)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:356)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:282)
+	at jenkins.model.Jenkins$7.runTask(Jenkins.java:905)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:210)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 28, 2014 5:46:32 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Aug 28, 2014 5:46:32 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Aug 28, 2014 5:46:33 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Aug 28, 2014 5:46:33 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Aug 28, 2014 5:46:47 PM hudson.ExtensionFinder$Sezpoz scout
+WARNING: Failed to scout hudson.security.LDAPSecurityRealm$MailAdressResolverImpl
+java.lang.InstantiationException: java.lang.NoClassDefFoundError: hudson/tasks/MailAddressResolver
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:146)
+	at hudson.ExtensionFinder$Sezpoz.scout(ExtensionFinder.java:666)
+	at hudson.ClassicPluginStrategy.findComponents(ClassicPluginStrategy.java:335)
+	at hudson.ExtensionList.load(ExtensionList.java:295)
+	at hudson.ExtensionList.ensureLoaded(ExtensionList.java:248)
+	at hudson.ExtensionList.iterator(ExtensionList.java:138)
+	at hudson.ClassicPluginStrategy.findComponents(ClassicPluginStrategy.java:334)
+	at hudson.ExtensionList.load(ExtensionList.java:295)
+	at hudson.ExtensionList.ensureLoaded(ExtensionList.java:248)
+	at hudson.ExtensionList.iterator(ExtensionList.java:138)
+	at hudson.ExtensionList.get(ExtensionList.java:129)
+	at hudson.diagnosis.NullIdDescriptorMonitor.verifyId(NullIdDescriptorMonitor.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at hudson.init.TaskMethodFinder.invoke(TaskMethodFinder.java:105)
+	at hudson.init.TaskMethodFinder$TaskImpl.run(TaskMethodFinder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:282)
+	at jenkins.model.Jenkins$7.runTask(Jenkins.java:905)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:210)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NoClassDefFoundError: hudson/tasks/MailAddressResolver
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at jenkins.util.AntClassLoader.defineClassFromData(AntClassLoader.java:1138)
+	at hudson.ClassicPluginStrategy$AntClassLoader2.defineClassFromData(ClassicPluginStrategy.java:755)
+	at jenkins.util.AntClassLoader.getClassFromStream(AntClassLoader.java:1309)
+	at jenkins.util.AntClassLoader.findClassInComponents(AntClassLoader.java:1365)
+	at jenkins.util.AntClassLoader.findClass(AntClassLoader.java:1325)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at jenkins.ClassLoaderReflectionToolkit.invoke(ClassLoaderReflectionToolkit.java:44)
+	at jenkins.ClassLoaderReflectionToolkit._findClass(ClassLoaderReflectionToolkit.java:86)
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:1042)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 24 more
+Caused by: java.lang.ClassNotFoundException: hudson.tasks.MailAddressResolver
+	at jenkins.util.AntClassLoader.findClassInComponents(AntClassLoader.java:1375)
+	at jenkins.util.AntClassLoader.findClass(AntClassLoader.java:1325)
+	at jenkins.util.AntClassLoader.loadClass(AntClassLoader.java:1078)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 40 more
+
+Aug 28, 2014 5:46:58 PM hudson.ExtensionFinder$Sezpoz _find
+WARNING: Failed to load hudson.security.LDAPSecurityRealm$MailAdressResolverImpl
+java.lang.InstantiationException: java.lang.NoClassDefFoundError: hudson/tasks/MailAddressResolver
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:146)
+	at hudson.ExtensionFinder$Sezpoz._find(ExtensionFinder.java:628)
+	at hudson.ExtensionFinder$Sezpoz.find(ExtensionFinder.java:617)
+	at hudson.ExtensionFinder$GuiceFinder.<init>(ExtensionFinder.java:259)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance0(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at net.java.sezpoz.IndexItem.instance(IndexItem.java:181)
+	at hudson.ExtensionFinder$Sezpoz._find(ExtensionFinder.java:642)
+	at hudson.ExtensionFinder$Sezpoz.find(ExtensionFinder.java:617)
+	at hudson.ExtensionFinder._find(ExtensionFinder.java:151)
+	at hudson.ClassicPluginStrategy.findComponents(ClassicPluginStrategy.java:341)
+	at hudson.ExtensionList.load(ExtensionList.java:295)
+	at hudson.ExtensionList.ensureLoaded(ExtensionList.java:248)
+	at hudson.ExtensionList.iterator(ExtensionList.java:138)
+	at hudson.ClassicPluginStrategy.findComponents(ClassicPluginStrategy.java:334)
+	at hudson.ExtensionList.load(ExtensionList.java:295)
+	at hudson.ExtensionList.ensureLoaded(ExtensionList.java:248)
+	at hudson.ExtensionList.iterator(ExtensionList.java:138)
+	at hudson.ExtensionList.get(ExtensionList.java:129)
+	at hudson.diagnosis.NullIdDescriptorMonitor.verifyId(NullIdDescriptorMonitor.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at hudson.init.TaskMethodFinder.invoke(TaskMethodFinder.java:105)
+	at hudson.init.TaskMethodFinder$TaskImpl.run(TaskMethodFinder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:282)
+	at jenkins.model.Jenkins$7.runTask(Jenkins.java:905)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:210)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NoClassDefFoundError: hudson/tasks/MailAddressResolver
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at jenkins.util.AntClassLoader.defineClassFromData(AntClassLoader.java:1138)
+	at hudson.ClassicPluginStrategy$AntClassLoader2.defineClassFromData(ClassicPluginStrategy.java:755)
+	at jenkins.util.AntClassLoader.getClassFromStream(AntClassLoader.java:1309)
+	at jenkins.util.AntClassLoader.findClassInComponents(AntClassLoader.java:1365)
+	at jenkins.util.AntClassLoader.findClass(AntClassLoader.java:1325)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at jenkins.ClassLoaderReflectionToolkit.invoke(ClassLoaderReflectionToolkit.java:44)
+	at jenkins.ClassLoaderReflectionToolkit._findClass(ClassLoaderReflectionToolkit.java:86)
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:1042)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 36 more
+Caused by: java.lang.ClassNotFoundException: hudson.tasks.MailAddressResolver
+	at jenkins.util.AntClassLoader.findClassInComponents(AntClassLoader.java:1375)
+	at jenkins.util.AntClassLoader.findClass(AntClassLoader.java:1325)
+	at jenkins.util.AntClassLoader.loadClass(AntClassLoader.java:1078)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 52 more
+
+Aug 28, 2014 5:46:59 PM hudson.ExtensionFinder$Sezpoz _find
+WARNING: Failed to load hudson.security.LDAPSecurityRealm$MailAdressResolverImpl
+java.lang.InstantiationException: java.lang.NoClassDefFoundError: hudson/tasks/MailAddressResolver
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:146)
+	at hudson.ExtensionFinder$Sezpoz._find(ExtensionFinder.java:628)
+	at hudson.ExtensionFinder$Sezpoz.find(ExtensionFinder.java:617)
+	at hudson.ExtensionFinder$GuiceFinder.<init>(ExtensionFinder.java:277)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance0(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at net.java.sezpoz.IndexItem.instance(IndexItem.java:181)
+	at hudson.ExtensionFinder$Sezpoz._find(ExtensionFinder.java:642)
+	at hudson.ExtensionFinder$Sezpoz.find(ExtensionFinder.java:617)
+	at hudson.ExtensionFinder._find(ExtensionFinder.java:151)
+	at hudson.ClassicPluginStrategy.findComponents(ClassicPluginStrategy.java:341)
+	at hudson.ExtensionList.load(ExtensionList.java:295)
+	at hudson.ExtensionList.ensureLoaded(ExtensionList.java:248)
+	at hudson.ExtensionList.iterator(ExtensionList.java:138)
+	at hudson.ClassicPluginStrategy.findComponents(ClassicPluginStrategy.java:334)
+	at hudson.ExtensionList.load(ExtensionList.java:295)
+	at hudson.ExtensionList.ensureLoaded(ExtensionList.java:248)
+	at hudson.ExtensionList.iterator(ExtensionList.java:138)
+	at hudson.ExtensionList.get(ExtensionList.java:129)
+	at hudson.diagnosis.NullIdDescriptorMonitor.verifyId(NullIdDescriptorMonitor.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at hudson.init.TaskMethodFinder.invoke(TaskMethodFinder.java:105)
+	at hudson.init.TaskMethodFinder$TaskImpl.run(TaskMethodFinder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:282)
+	at jenkins.model.Jenkins$7.runTask(Jenkins.java:905)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:210)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NoClassDefFoundError: hudson/tasks/MailAddressResolver
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at jenkins.util.AntClassLoader.defineClassFromData(AntClassLoader.java:1138)
+	at hudson.ClassicPluginStrategy$AntClassLoader2.defineClassFromData(ClassicPluginStrategy.java:755)
+	at jenkins.util.AntClassLoader.getClassFromStream(AntClassLoader.java:1309)
+	at jenkins.util.AntClassLoader.findClassInComponents(AntClassLoader.java:1365)
+	at jenkins.util.AntClassLoader.findClass(AntClassLoader.java:1325)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at jenkins.ClassLoaderReflectionToolkit.invoke(ClassLoaderReflectionToolkit.java:44)
+	at jenkins.ClassLoaderReflectionToolkit._findClass(ClassLoaderReflectionToolkit.java:86)
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:1042)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 36 more
+Caused by: java.lang.ClassNotFoundException: hudson.tasks.MailAddressResolver
+	at jenkins.util.AntClassLoader.findClassInComponents(AntClassLoader.java:1375)
+	at jenkins.util.AntClassLoader.findClass(AntClassLoader.java:1325)
+	at jenkins.util.AntClassLoader.loadClass(AntClassLoader.java:1078)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 52 more
+
+Aug 28, 2014 5:47:09 PM hudson.ExtensionFinder$GuiceFinder$SezpozModule configure
+WARNING: Failed to load hudson.security.LDAPSecurityRealm$MailAdressResolverImpl
+java.lang.InstantiationException: java.lang.NoClassDefFoundError: hudson/tasks/MailAddressResolver
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:146)
+	at hudson.ExtensionFinder$GuiceFinder$SezpozModule.configure(ExtensionFinder.java:504)
+	at com.google.inject.AbstractModule.configure(AbstractModule.java:62)
+	at com.google.inject.spi.Elements$RecordingBinder.install(Elements.java:230)
+	at com.google.inject.spi.Elements.getElements(Elements.java:103)
+	at com.google.inject.internal.InjectorShell$Builder.build(InjectorShell.java:136)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:104)
+	at com.google.inject.Guice.createInjector(Guice.java:96)
+	at com.google.inject.Guice.createInjector(Guice.java:73)
+	at hudson.ExtensionFinder$GuiceFinder.<init>(ExtensionFinder.java:282)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance0(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at net.java.sezpoz.IndexItem.instance(IndexItem.java:181)
+	at hudson.ExtensionFinder$Sezpoz._find(ExtensionFinder.java:642)
+	at hudson.ExtensionFinder$Sezpoz.find(ExtensionFinder.java:617)
+	at hudson.ExtensionFinder._find(ExtensionFinder.java:151)
+	at hudson.ClassicPluginStrategy.findComponents(ClassicPluginStrategy.java:341)
+	at hudson.ExtensionList.load(ExtensionList.java:295)
+	at hudson.ExtensionList.ensureLoaded(ExtensionList.java:248)
+	at hudson.ExtensionList.iterator(ExtensionList.java:138)
+	at hudson.ClassicPluginStrategy.findComponents(ClassicPluginStrategy.java:334)
+	at hudson.ExtensionList.load(ExtensionList.java:295)
+	at hudson.ExtensionList.ensureLoaded(ExtensionList.java:248)
+	at hudson.ExtensionList.iterator(ExtensionList.java:138)
+	at hudson.ExtensionList.get(ExtensionList.java:129)
+	at hudson.diagnosis.NullIdDescriptorMonitor.verifyId(NullIdDescriptorMonitor.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at hudson.init.TaskMethodFinder.invoke(TaskMethodFinder.java:105)
+	at hudson.init.TaskMethodFinder$TaskImpl.run(TaskMethodFinder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:282)
+	at jenkins.model.Jenkins$7.runTask(Jenkins.java:905)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:210)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NoClassDefFoundError: hudson/tasks/MailAddressResolver
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at jenkins.util.AntClassLoader.defineClassFromData(AntClassLoader.java:1138)
+	at hudson.ClassicPluginStrategy$AntClassLoader2.defineClassFromData(ClassicPluginStrategy.java:755)
+	at jenkins.util.AntClassLoader.getClassFromStream(AntClassLoader.java:1309)
+	at jenkins.util.AntClassLoader.findClassInComponents(AntClassLoader.java:1365)
+	at jenkins.util.AntClassLoader.findClass(AntClassLoader.java:1325)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at jenkins.ClassLoaderReflectionToolkit.invoke(ClassLoaderReflectionToolkit.java:44)
+	at jenkins.ClassLoaderReflectionToolkit._findClass(ClassLoaderReflectionToolkit.java:86)
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:1042)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 42 more
+Caused by: java.lang.ClassNotFoundException: hudson.tasks.MailAddressResolver
+	at jenkins.util.AntClassLoader.findClassInComponents(AntClassLoader.java:1375)
+	at jenkins.util.AntClassLoader.findClass(AntClassLoader.java:1325)
+	at jenkins.util.AntClassLoader.loadClass(AntClassLoader.java:1078)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 58 more
+
+Aug 28, 2014 5:47:11 PM hudson.ExtensionFinder$Sezpoz _find
+WARNING: Failed to load hudson.security.LDAPSecurityRealm$MailAdressResolverImpl
+java.lang.InstantiationException: java.lang.NoClassDefFoundError: hudson/tasks/MailAddressResolver
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:146)
+	at hudson.ExtensionFinder$Sezpoz._find(ExtensionFinder.java:628)
+	at hudson.ExtensionFinder$Sezpoz.find(ExtensionFinder.java:617)
+	at hudson.ExtensionFinder._find(ExtensionFinder.java:151)
+	at hudson.ClassicPluginStrategy.findComponents(ClassicPluginStrategy.java:341)
+	at hudson.ExtensionList.load(ExtensionList.java:295)
+	at hudson.ExtensionList.ensureLoaded(ExtensionList.java:248)
+	at hudson.ExtensionList.iterator(ExtensionList.java:138)
+	at hudson.ClassicPluginStrategy.findComponents(ClassicPluginStrategy.java:334)
+	at hudson.ExtensionList.load(ExtensionList.java:295)
+	at hudson.ExtensionList.ensureLoaded(ExtensionList.java:248)
+	at hudson.ExtensionList.iterator(ExtensionList.java:138)
+	at hudson.ExtensionList.get(ExtensionList.java:129)
+	at hudson.diagnosis.NullIdDescriptorMonitor.verifyId(NullIdDescriptorMonitor.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at hudson.init.TaskMethodFinder.invoke(TaskMethodFinder.java:105)
+	at hudson.init.TaskMethodFinder$TaskImpl.run(TaskMethodFinder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:282)
+	at jenkins.model.Jenkins$7.runTask(Jenkins.java:905)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:210)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NoClassDefFoundError: hudson/tasks/MailAddressResolver
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at jenkins.util.AntClassLoader.defineClassFromData(AntClassLoader.java:1138)
+	at hudson.ClassicPluginStrategy$AntClassLoader2.defineClassFromData(ClassicPluginStrategy.java:755)
+	at jenkins.util.AntClassLoader.getClassFromStream(AntClassLoader.java:1309)
+	at jenkins.util.AntClassLoader.findClassInComponents(AntClassLoader.java:1365)
+	at jenkins.util.AntClassLoader.findClass(AntClassLoader.java:1325)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at jenkins.ClassLoaderReflectionToolkit.invoke(ClassLoaderReflectionToolkit.java:44)
+	at jenkins.ClassLoaderReflectionToolkit._findClass(ClassLoaderReflectionToolkit.java:86)
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:1042)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 26 more
+Caused by: java.lang.ClassNotFoundException: hudson.tasks.MailAddressResolver
+	at jenkins.util.AntClassLoader.findClassInComponents(AntClassLoader.java:1375)
+	at jenkins.util.AntClassLoader.findClass(AntClassLoader.java:1325)
+	at jenkins.util.AntClassLoader.loadClass(AntClassLoader.java:1078)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 42 more
+
+Aug 28, 2014 5:47:21 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 49633
+Aug 28, 2014 5:47:21 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Aug 28, 2014 5:47:21 PM hudson.TcpSlaveAgentListener <init>
+INFO: JNLP slave agent listener started on TCP port 49634
+Aug 28, 2014 5:47:21 PM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Aug 28, 2014 5:47:22 PM javax.jmdns.impl.HostInfo newHostInfo
+WARNING: Could not find any address beside the loopback.
+Aug 28, 2014 5:47:24 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 49643
+Aug 28, 2014 5:47:24 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Aug 28, 2014 5:47:24 PM hudson.TcpSlaveAgentListener <init>
+INFO: JNLP slave agent listener started on TCP port 49644
+Aug 28, 2014 5:47:24 PM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Aug 28, 2014 5:47:25 PM javax.jmdns.impl.HostInfo newHostInfo
+WARNING: Could not find any address beside the loopback.
+Aug 28, 2014 6:03:40 PM hudson.Util warnWindowsSymlink
+WARNING: Symbolic links enabled on this platform but disabled for this user; run as administrator or use Local Security Policy > Security Settings > Local Policies > User Rights Assignment > Create symbolic links
+Aug 28, 2014 6:14:44 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Aug 28, 2014 6:14:44 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 4 ms

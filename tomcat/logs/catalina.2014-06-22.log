@@ -1,0 +1,114 @@
+Jun 22, 2014 1:29:46 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre6\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.0.0\bin;E:\xampp\Ruby193\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\PROGRA~1\TIEDUC~1\TI-83P~1\UTILS
+Jun 22, 2014 1:30:04 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jun 22, 2014 1:30:05 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jun 22, 2014 1:30:05 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 23877 ms
+Jun 22, 2014 1:30:06 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jun 22, 2014 1:30:06 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.42
+Jun 22, 2014 1:30:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\ROOT
+Jun 22, 2014 1:30:08 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [719] milliseconds.
+Jun 22, 2014 1:30:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\manager
+Jun 22, 2014 1:30:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\host-manager
+Jun 22, 2014 1:30:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\examples
+Jun 22, 2014 1:30:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\docs
+Jun 22, 2014 1:30:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\ArcherCraft_Mainframe
+Jun 22, 2014 1:30:10 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jun 22, 2014 1:30:10 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jun 22, 2014 1:30:10 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4654 ms
+Jun 22, 2014 1:44:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\jre
+Jun 22, 2014 1:48:58 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive E:\xampp\tomcat\webapps\jenkins.war
+Jun 22, 2014 1:49:06 PM org.apache.catalina.startup.ContextConfig init
+SEVERE: Exception fixing docBase for context [/jenkins]
+java.io.FileNotFoundException: E:\xampp\tomcat\webapps\jenkins.war (The process cannot access the file because it is being used by another process)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(Unknown Source)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(Unknown Source)
+	at sun.net.www.protocol.jar.JarFileFactory.get(Unknown Source)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.jar.JarURLConnection.getJarFile(Unknown Source)
+	at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:113)
+	at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:722)
+	at org.apache.catalina.startup.ContextConfig.init(ContextConfig.java:843)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:387)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:110)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:139)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:976)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1653)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Jun 22, 2014 1:49:07 PM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Invalid or unreadable WAR file : E:\xampp\tomcat\webapps\jenkins.war (The process cannot access the file because it is being used by another process)
+	at org.apache.naming.resources.WARDirContext.setDocBase(WARDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5055)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5235)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:976)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1653)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Jun 22, 2014 1:49:08 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+Jun 22, 2014 1:49:08 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Jun 22, 2014 1:49:08 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/jenkins] startup failed due to previous errors
+Jun 22, 2014 1:50:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\war
+Jun 22, 2014 1:50:18 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [172] milliseconds.
+Jun 22, 2014 1:53:02 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/war]
+Jun 22, 2014 1:53:02 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/war] has started
+Jun 22, 2014 1:53:18 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+Jun 22, 2014 1:53:18 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/war] startup failed due to previous errors
+Jun 22, 2014 1:53:18 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/war] is completed
+Jun 22, 2014 1:58:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\plugins
+Jun 22, 2014 1:58:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\jobs
+Jun 22, 2014 2:04:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\secrets
+Jun 22, 2014 2:04:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\xampp\tomcat\webapps\userContent

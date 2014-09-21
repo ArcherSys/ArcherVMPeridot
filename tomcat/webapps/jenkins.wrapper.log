@@ -1,0 +1,194 @@
+2014-06-22 13:49:57 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-06-22 13:49:58 - Started 4308
+2014-06-26 18:41:19 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-06-26 18:41:21 - Started 2220
+2014-06-26 19:38:56 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-06-26 19:39:02 - Started 520
+2014-06-26 23:04:46 - Stopping jenkins
+2014-06-26 23:04:46 - ProcessKill 520
+2014-06-26 23:05:03 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2014-06-28 12:12:28 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-06-28 12:12:30 - Started 1148
+2014-06-28 13:11:13 - Stopping jenkins
+2014-06-28 13:11:13 - ProcessKill 1148
+2014-06-28 13:11:27 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2014-06-30 17:13:47 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-06-30 17:13:48 - Started 2320
+2014-06-30 20:14:20 - Stopping jenkins
+2014-06-30 20:14:20 - ProcessKill 2320
+2014-06-30 20:14:37 - Shutdown exception
+Message:Shutting down 
+Stacktrace:   at System.Management.ManagementException.ThrowWithExtendedInfo(ManagementStatus errorCode)
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2014-07-04 16:12:53 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-07-04 16:12:54 - Started 2384
+2014-07-04 16:15:29 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-07-04 16:15:31 - Started 2488
+2014-07-04 16:19:27 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-07-04 16:19:30 - Started 2472
+2014-07-04 17:08:56 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-07-04 17:09:06 - Started 2248
+2014-07-04 22:53:41 - Stopping jenkins
+2014-07-04 22:53:41 - ProcessKill 2248
+2014-07-04 22:53:55 - Shutdown exception
+Message:Shutting down 
+Stacktrace:   at System.Management.ManagementException.ThrowWithExtendedInfo(ManagementStatus errorCode)
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2014-07-11 20:43:30 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-07-11 20:43:32 - Started 244
+2014-07-11 20:49:47 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-07-11 20:49:48 - Started 200
+2014-07-11 20:56:36 - Stopping jenkins
+2014-07-11 20:56:36 - ProcessKill 200
+2014-07-11 20:56:40 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2014-07-11 20:57:36 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-07-11 20:57:37 - Started 216
+2014-07-21 18:32:06 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-07-21 18:32:07 - Started 1352
+2014-07-21 22:13:40 - Stopping jenkins
+2014-07-21 22:13:40 - ProcessKill 1352
+2014-07-21 22:14:01 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2014-07-22 18:06:56 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-07-22 18:06:56 - Started 1564
+2014-07-26 15:05:12 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-07-26 15:05:13 - Started 1932
+2014-07-31 08:38:02 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-07-31 08:38:02 - Started 496
+2014-07-31 09:24:50 - Stopping jenkins
+2014-07-31 09:24:51 - ProcessKill 496
+2014-07-31 09:25:07 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2014-08-03 13:39:17 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-08-03 13:39:18 - Started 1332
+2014-08-03 19:11:30 - Stopping jenkins
+2014-08-03 19:11:31 - ProcessKill 1332
+2014-08-03 19:11:50 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2014-08-10 16:18:17 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-08-10 16:18:17 - Started 1368
+2014-08-10 19:31:16 - Stopping jenkins
+2014-08-10 19:31:16 - ProcessKill 1368
+2014-08-10 19:31:32 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2014-08-11 17:51:54 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-08-11 17:51:55 - Started 1396
+2014-08-12 17:58:57 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-08-12 17:58:58 - Started 1316
+2014-08-12 18:05:58 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-08-12 18:05:59 - Started 1648
+2014-08-12 18:15:37 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-08-12 18:15:37 - Started 1328
+2014-08-12 21:08:01 - Stopping jenkins
+2014-08-12 21:08:01 - ProcessKill 1328
+2014-08-12 21:08:20 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2014-08-13 18:10:42 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-08-13 18:10:43 - Started 1288
+2014-08-13 18:21:33 - Stopping jenkins
+2014-08-13 18:21:33 - ProcessKill 1288
+2014-08-13 18:21:57 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2014-08-14 18:54:29 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-08-14 18:54:30 - Started 1264
+2014-08-14 23:04:03 - Stopping jenkins
+2014-08-14 23:04:03 - ProcessKill 1264
+2014-08-14 23:04:22 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2014-08-16 18:53:55 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-08-16 18:53:56 - Started 1568
+2014-08-20 18:29:19 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-08-20 18:29:19 - Started 468
+2014-08-20 19:35:18 - Stopping jenkins
+2014-08-20 19:35:18 - ProcessKill 468
+2014-08-21 18:31:44 - Starting E:\xampp\tomcat\webapps\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "E:\xampp\tomcat\webapps\jenkins.war" --httpPort=8080
+2014-08-21 18:31:44 - Started 1308

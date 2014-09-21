@@ -1,0 +1,72 @@
+May 26, 2014 8:45:00 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre6\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\PROGRA~1\TIEDUC~1\TI-83P~1\UTILS;E:\xampp\nodechip\;C:\Documents and Settings\User\Application Data\npm
+May 26, 2014 8:45:12 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 26, 2014 8:45:12 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 26, 2014 8:45:13 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 13627 ms
+May 26, 2014 8:45:13 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 26, 2014 8:45:13 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.42
+May 26, 2014 8:45:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\xampp2\tomcat\webapps\docs
+May 26, 2014 8:45:14 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [313] milliseconds.
+May 26, 2014 8:45:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\xampp2\tomcat\webapps\examples
+May 26, 2014 8:45:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\xampp2\tomcat\webapps\host-manager
+May 26, 2014 8:45:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\xampp2\tomcat\webapps\manager
+May 26, 2014 8:45:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\xampp2\tomcat\webapps\ROOT
+May 26, 2014 8:45:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 26, 2014 8:45:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 26, 2014 8:45:16 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3300 ms
+May 26, 2014 8:53:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\xampp2\tomcat\webapps\New Folder
+May 26, 2014 8:53:37 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/New Folder]
+May 26, 2014 8:53:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\xampp2\tomcat\webapps\ArcherCraft Mainframe
+May 26, 2014 8:54:08 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/ArcherCraft Mainframe]
+May 26, 2014 8:54:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\xampp2\tomcat\webapps\ArcherCraft_Mainframe
+May 26, 2014 8:56:41 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+May 26, 2014 8:56:41 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+May 26, 2014 8:56:41 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+May 26, 2014 8:56:51 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+May 26, 2014 8:56:56 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET /ArcherCraft_Mainframe HTTP/1.1' received
+May 26, 2014 8:57:04 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET /ArcherCraft_Mainframe HTTP/1.1' received
+May 26, 2014 8:57:04 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET /ArcherCraft_Mainframe HTTP/1.1' received
+May 26, 2014 8:57:05 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET /ArcherCraft_Mainframe HTTP/1.1' received
+May 26, 2014 8:57:15 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+May 26, 2014 9:22:02 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 26, 2014 9:22:02 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 26, 2014 9:22:03 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 26, 2014 9:22:05 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 26, 2014 9:22:05 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 26, 2014 9:22:05 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 26, 2014 9:22:05 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

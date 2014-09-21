@@ -1,0 +1,18 @@
+May 26, 2014 8:45:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+May 26, 2014 8:45:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+May 26, 2014 8:45:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1554d32')
+May 26, 2014 9:11:33 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@16b98c3')
+May 26, 2014 9:11:34 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@144e858')
+May 26, 2014 9:11:35 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('C62BEEC1FAD8225B2ACA60DB2DD7BF87')
+May 26, 2014 9:11:35 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeAdded('C62BEEC1FAD8225B2ACA60DB2DD7BF87', 'numguess', 'num.NumberGuessBean@b70648')
+May 26, 2014 9:22:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+May 26, 2014 9:22:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()

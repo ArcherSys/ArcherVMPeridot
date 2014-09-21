@@ -1,0 +1,301 @@
+Jun 15, 2014 1:12:39 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\QuickTime\QTSystem\;.
+Jun 15, 2014 1:12:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 1:12:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 1:12:50 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 20917 ms
+Jun 15, 2014 1:12:52 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jun 15, 2014 1:12:52 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.42
+Jun 15, 2014 1:12:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\ROOT
+Jun 15, 2014 1:12:54 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [911] milliseconds.
+Jun 15, 2014 1:12:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\manager
+Jun 15, 2014 1:12:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\host-manager
+Jun 15, 2014 1:12:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\examples
+Jun 15, 2014 1:13:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\docs
+Jun 15, 2014 1:13:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\ArcherCraft_Mainframe
+Jun 15, 2014 1:13:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 1:13:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 1:13:06 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 15618 ms
+Jun 15, 2014 1:52:25 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jun 15, 2014 1:52:27 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 1:52:29 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 1:52:29 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jun 15, 2014 1:52:36 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 1:52:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 1:52:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 1:52:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 1:53:16 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\QuickTime\QTSystem\;.
+Jun 15, 2014 1:53:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 1:53:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 1:53:21 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 8963 ms
+Jun 15, 2014 1:53:23 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jun 15, 2014 1:53:23 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.42
+Jun 15, 2014 1:53:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\ROOT
+Jun 15, 2014 1:53:25 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [455] milliseconds.
+Jun 15, 2014 1:53:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\manager
+Jun 15, 2014 1:53:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\host-manager
+Jun 15, 2014 1:53:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\examples
+Jun 15, 2014 1:53:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\docs
+Jun 15, 2014 1:53:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\ArcherCraft_Mainframe
+Jun 15, 2014 1:53:28 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 1:53:28 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 1:53:28 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7168 ms
+Jun 15, 2014 1:56:00 PM org.apache.catalina.realm.LockOutRealm authenticate
+WARNING: An attempt was made to authenticate the locked user "archeradmin"
+Jun 15, 2014 1:56:02 PM org.apache.catalina.realm.LockOutRealm authenticate
+WARNING: An attempt was made to authenticate the locked user "archeradmin"
+Jun 15, 2014 1:56:03 PM org.apache.catalina.realm.LockOutRealm authenticate
+WARNING: An attempt was made to authenticate the locked user "archeradmin"
+Jun 15, 2014 1:56:10 PM org.apache.catalina.realm.LockOutRealm authenticate
+WARNING: An attempt was made to authenticate the locked user "archeradmin"
+Jun 15, 2014 1:56:13 PM org.apache.catalina.realm.LockOutRealm authenticate
+WARNING: An attempt was made to authenticate the locked user "archeradmin"
+Jun 15, 2014 1:58:13 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jun 15, 2014 1:58:13 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 1:58:13 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 1:58:13 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jun 15, 2014 1:58:14 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 1:58:14 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 1:58:14 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 1:58:14 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 2:01:20 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\QuickTime\QTSystem\;.
+Jun 15, 2014 2:01:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 2:01:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 2:01:27 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 10882 ms
+Jun 15, 2014 2:01:28 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jun 15, 2014 2:01:28 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.42
+Jun 15, 2014 2:01:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\ROOT
+Jun 15, 2014 2:01:30 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [830] milliseconds.
+Jun 15, 2014 2:01:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\manager
+Jun 15, 2014 2:01:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\host-manager
+Jun 15, 2014 2:01:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\examples
+Jun 15, 2014 2:01:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\docs
+Jun 15, 2014 2:01:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\ArcherCraft_Mainframe
+Jun 15, 2014 2:01:34 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 2:01:34 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 2:01:34 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7097 ms
+Jun 15, 2014 2:04:49 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jun 15, 2014 2:04:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 2:04:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 2:04:49 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jun 15, 2014 2:04:51 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 2:04:51 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 2:04:51 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 2:04:51 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 2:06:00 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\QuickTime\QTSystem\;.
+Jun 15, 2014 2:06:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 2:06:22 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 2:06:22 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 29078 ms
+Jun 15, 2014 2:06:23 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jun 15, 2014 2:06:23 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.42
+Jun 15, 2014 2:06:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\ROOT
+Jun 15, 2014 2:06:28 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,591] milliseconds.
+Jun 15, 2014 2:06:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\manager
+Jun 15, 2014 2:06:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\host-manager
+Jun 15, 2014 2:06:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\examples
+Jun 15, 2014 2:06:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\docs
+Jun 15, 2014 2:06:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\ArcherCraft_Mainframe
+Jun 15, 2014 2:06:33 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 2:06:34 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 2:06:34 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11869 ms
+Jun 15, 2014 2:12:16 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 2:12:16 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 2:12:16 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jun 15, 2014 2:12:18 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 2:12:18 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 2:12:18 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 2:12:18 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 2:13:27 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\QuickTime\QTSystem\;.
+Jun 15, 2014 2:13:33 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 2:13:33 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 2:13:33 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 13368 ms
+Jun 15, 2014 2:13:34 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jun 15, 2014 2:13:34 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.42
+Jun 15, 2014 2:13:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\ROOT
+Jun 15, 2014 2:13:36 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [482] milliseconds.
+Jun 15, 2014 2:13:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\manager
+Jun 15, 2014 2:13:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\host-manager
+Jun 15, 2014 2:13:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\examples
+Jun 15, 2014 2:13:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\docs
+Jun 15, 2014 2:13:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\ArcherCraft_Mainframe
+Jun 15, 2014 2:13:37 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jun 15, 2014 2:13:38 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jun 15, 2014 2:13:38 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4090 ms
+Jun 15, 2014 4:11:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\xampp\tomcat\webapps\jre
+Jun 15, 2014 4:12:48 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [106] milliseconds.
+Jun 15, 2014 4:16:18 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\xampp\tomcat\webapps\jenkins.war
+Jun 15, 2014 4:16:23 PM org.apache.catalina.startup.ContextConfig init
+SEVERE: Exception fixing docBase for context [/jenkins]
+java.io.FileNotFoundException: D:\xampp\tomcat\webapps\jenkins.war (The process cannot access the file because it is being used by another process)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(Unknown Source)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(Unknown Source)
+	at sun.net.www.protocol.jar.JarFileFactory.get(Unknown Source)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.jar.JarURLConnection.getJarFile(Unknown Source)
+	at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:113)
+	at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:722)
+	at org.apache.catalina.startup.ContextConfig.init(ContextConfig.java:843)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:387)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:110)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:139)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:976)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1653)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Jun 15, 2014 4:16:26 PM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Invalid or unreadable WAR file : D:\xampp\tomcat\webapps\jenkins.war (The process cannot access the file because it is being used by another process)
+	at org.apache.naming.resources.WARDirContext.setDocBase(WARDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5055)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5235)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:976)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1653)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Jun 15, 2014 4:16:26 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+Jun 15, 2014 4:16:27 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Jun 15, 2014 4:16:27 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/jenkins] startup failed due to previous errors
+Jun 15, 2014 4:19:40 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/jenkins]
+Jun 15, 2014 4:20:04 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/jre]
