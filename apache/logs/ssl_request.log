@@ -187,3 +187,4 @@
 [13/Jun/2014:16:13:12 -0400] ps458s-5kr6mvioin60.students.dc_schools.k12.dc.us TLSv1 DHE-RSA-AES256-SHA "GET /owncloud HTTP/1.1" 575
 [13/Jun/2014:16:13:13 -0400] ps458s-5kr6mvioin60.students.dc_schools.k12.dc.us TLSv1 DHE-RSA-AES256-SHA "GET /favicon.ico HTTP/1.1" 7782
 [13/Jun/2014:16:13:20 -0400] ps458s-5kr6mvioin60.students.dc_schools.k12.dc.us TLSv1 DHE-RSA-AES256-SHA "GET /owncloud HTTP/1.1" 575
+[22/Sep/2014:07:58:33 -0400] ps291t-1m8g2f1.hq.dc_schools.k12.dc.us TLSv1 RC4-SHA "GET / HTTP/1.1" 24158

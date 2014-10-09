@@ -1054,3 +1054,250 @@ pm_winnt:notice] [pid 3940:tid 1864] AH00354: Child: Starting 150 worker threads
 [Sun Aug 24 19:10:48.593750 2014] [mpm_winnt:notice] [pid 2224:tid 1852] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Sun Aug 24 19:10:50.796875 2014] [mpm_winnt:notice] [pid 3940:tid 1864] AH00364: Child: All worker threads have exited.
 [Sun Aug 24 19:10:54.078125 2014] [mpm_winnt:notice] [pid 2224:tid 1852] AH00430: Parent: Child process 3940 exited successfully.
+[Tue Sep 02 18:24:31.397542 2014] [mpm_winnt:notice] [pid 5352:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Tue Sep 02 18:24:31.433545 2014] [mpm_winnt:notice] [pid 5352:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Tue Sep 02 18:24:31.434545 2014] [core:notice] [pid 5352:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Tue Sep 02 18:24:31.468547 2014] [mpm_winnt:notice] [pid 5352:tid 240] AH00418: Parent: Created child process 3800
+[Tue Sep 02 18:24:40.764078 2014] [mpm_winnt:notice] [pid 3800:tid 252] AH00354: Child: Starting 150 worker threads.
+[Tue Sep 02 19:09:28.669426 2014] [core:warn] [pid 4488:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Sep 02 19:09:51.425728 2014] [mpm_winnt:notice] [pid 4488:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Tue Sep 02 19:09:51.426728 2014] [mpm_winnt:notice] [pid 4488:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Tue Sep 02 19:09:51.426728 2014] [core:notice] [pid 4488:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Tue Sep 02 19:09:51.506732 2014] [mpm_winnt:notice] [pid 4488:tid 240] AH00418: Parent: Created child process 5028
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 5028:tid 252] AH00354: Child: Starting 150 worker threads.
+[Tue Sep 02 20:11:23.222887 2014] [authz_core:error] [pid 5028:tid 1696] [client ::1:49441] AH01630: client denied by server configuration: K:/ArcherVMPeridot/htdocs
+[Tue Sep 02 20:13:15.447305 2014] [authz_core:error] [pid 5028:tid 1684] [client ::1:49447] AH01630: client denied by server configuration: K:/ArcherVMPeridot/htdocs
+[Tue Sep 02 20:14:39.957139 2014] [authz_core:error] [pid 5028:tid 1680] [client ::1:49452] AH01630: client denied by server configuration: K:/ArcherVMPeridot/htdocs
+[Tue Sep 02 20:14:41.324217 2014] [authz_core:error] [pid 5028:tid 1680] [client ::1:49452] AH01630: client denied by server configuration: K:/ArcherVMPeridot/htdocs
+[Tue Sep 02 20:14:42.144264 2014] [authz_core:error] [pid 5028:tid 1680] [client ::1:49452] AH01630: client denied by server configuration: K:/ArcherVMPeridot/htdocs
+[Tue Sep 02 20:14:42.943310 2014] [authz_core:error] [pid 5028:tid 1680] [client ::1:49452] AH01630: client denied by server configuration: K:/ArcherVMPeridot/htdocs
+[Tue Sep 02 20:14:43.520343 2014] [authz_core:error] [pid 5028:tid 1680] [client ::1:49452] AH01630: client denied by server configuration: K:/ArcherVMPeridot/htdocs
+[Tue Sep 02 20:20:00.010445 2014] [mpm_winnt:notice] [pid 4488:tid 240] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 02 20:20:07.783890 2014] [mpm_winnt:notice] [pid 5028:tid 252] AH00364: Child: All worker threads have exited.
+[Tue Sep 02 22:03:05.003439 2014] [core:warn] [pid 6536:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Sep 02 22:04:04.022109 2014] [mpm_winnt:notice] [pid 6536:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Tue Sep 02 22:04:04.023109 2014] [mpm_winnt:notice] [pid 6536:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Tue Sep 02 22:04:04.023109 2014] [core:notice] [pid 6536:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Tue Sep 02 22:04:05.840213 2014] [mpm_winnt:notice] [pid 6536:tid 240] AH00418: Parent: Created child process 7784
+[Tue Sep 02 22:04:49.050685 2014] [mpm_winnt:notice] [pid 7784:tid 252] AH00354: Child: Starting 150 worker threads.
+[Wed Sep 03 17:07:22.848617 2014] [core:warn] [pid 6380:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Sep 03 17:07:33.138205 2014] [mpm_winnt:notice] [pid 6380:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Wed Sep 03 17:07:33.138205 2014] [mpm_winnt:notice] [pid 6380:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Wed Sep 03 17:07:33.139205 2014] [core:notice] [pid 6380:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Wed Sep 03 17:07:33.864247 2014] [mpm_winnt:notice] [pid 6380:tid 240] AH00418: Parent: Created child process 1560
+[Wed Sep 03 17:07:44.295843 2014] [mpm_winnt:notice] [pid 1560:tid 252] AH00354: Child: Starting 150 worker threads.
+[Wed Sep 03 17:11:32.389890 2014] [access_compat:error] [pid 1560:tid 1676] [client ::1:53666] AH01797: client denied by server configuration: K:/ArcherVMPeridot/htdocs/owncloud-serv/data/htaccesstest.txt
+[Wed Sep 03 17:11:41.971438 2014] [access_compat:error] [pid 1560:tid 1676] [client ::1:53667] AH01797: client denied by server configuration: K:/ArcherVMPeridot/htdocs/owncloud-serv/data/htaccesstest.txt
+[Wed Sep 03 17:14:03.368525 2014] [access_compat:error] [pid 1560:tid 1676] [client ::1:53692] AH01797: client denied by server configuration: K:/ArcherVMPeridot/htdocs/owncloud-serv/data/htaccesstest.txt
+[Wed Sep 03 17:14:06.079680 2014] [access_compat:error] [pid 1560:tid 1672] [client ::1:53694] AH01797: client denied by server configuration: K:/ArcherVMPeridot/htdocs/owncloud-serv/data/htaccesstest.txt
+[Wed Sep 03 17:29:09.485352 2014] [access_compat:error] [pid 1560:tid 1692] [client ::1:53811] AH01797: client denied by server configuration: K:/ArcherVMPeridot/htdocs/owncloud-serv/data/htaccesstest.txt
+[Wed Sep 03 17:38:14.777541 2014] [access_compat:error] [pid 1560:tid 1680] [client ::1:53884] AH01797: client denied by server configuration: K:/ArcherVMPeridot/htdocs/owncloud-serv/data/htaccesstest.txt
+[Thu Sep 04 07:40:51.902187 2014] [core:warn] [pid 3960:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Sep 04 07:40:57.530508 2014] [mpm_winnt:notice] [pid 3960:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Thu Sep 04 07:40:57.530508 2014] [mpm_winnt:notice] [pid 3960:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Thu Sep 04 07:40:57.530508 2014] [core:notice] [pid 3960:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Thu Sep 04 07:40:57.561510 2014] [mpm_winnt:notice] [pid 3960:tid 240] AH00418: Parent: Created child process 5856
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 5856:tid 252] AH00354: Child: Starting 150 worker threads.
+[Thu Sep 04 08:22:59.368550 2014] [:error] [pid 5856:tid 1744] [client ::1:60013] script 'K:/ArcherVMPeridot/htdocs/PDFLint/essays.php' not found or unable to stat, referer: http://localhost/PDFLint/
+[Thu Sep 04 12:24:24.529842 2014] [mpm_winnt:crit] [pid 5856:tid 252] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Thu Sep 04 12:24:25.165842 2014] [mpm_winnt:warn] [pid 5856:tid 476] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Sep 04 12:24:25.216842 2014] [mpm_winnt:warn] [pid 5856:tid 472] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Sep 04 12:24:39.184842 2014] [mpm_winnt:notice] [pid 5856:tid 252] AH00364: Child: All worker threads have exited.
+[Thu Sep 04 12:27:05.108842 2014] [core:warn] [pid 4288:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Sep 04 12:27:28.741842 2014] [mpm_winnt:notice] [pid 4288:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Thu Sep 04 12:27:28.741842 2014] [mpm_winnt:notice] [pid 4288:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Thu Sep 04 12:27:28.741842 2014] [core:notice] [pid 4288:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Thu Sep 04 12:27:28.966842 2014] [mpm_winnt:notice] [pid 4288:tid 240] AH00418: Parent: Created child process 6460
+[Thu Sep 04 12:27:42.517842 2014] [mpm_winnt:notice] [pid 6460:tid 252] AH00354: Child: Starting 150 worker threads.
+[Fri Sep 05 07:17:02.186272 2014] [core:warn] [pid 4884:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Sep 05 07:17:11.269791 2014] [mpm_winnt:notice] [pid 4884:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Fri Sep 05 07:17:11.270791 2014] [mpm_winnt:notice] [pid 4884:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Fri Sep 05 07:17:11.270791 2014] [core:notice] [pid 4884:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Fri Sep 05 07:17:11.280792 2014] [mpm_winnt:notice] [pid 4884:tid 240] AH00418: Parent: Created child process 3604
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 3604:tid 252] AH00354: Child: Starting 150 worker threads.
+[Fri Sep 05 13:10:53.893849 2014] [core:warn] [pid 1884:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Sep 05 13:11:04.243148 2014] [mpm_winnt:notice] [pid 1884:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Fri Sep 05 13:11:04.244146 2014] [mpm_winnt:notice] [pid 1884:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Fri Sep 05 13:11:04.244146 2014] [core:notice] [pid 1884:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Fri Sep 05 13:11:04.311019 2014] [mpm_winnt:notice] [pid 1884:tid 240] AH00418: Parent: Created child process 4664
+[Fri Sep 05 13:11:12.984508 2014] [mpm_winnt:notice] [pid 4664:tid 252] AH00354: Child: Starting 150 worker threads.
+[Fri Sep 05 19:11:59.337236 2014] [core:warn] [pid 2916:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Sep 05 19:13:14.401529 2014] [mpm_winnt:notice] [pid 2916:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Fri Sep 05 19:13:14.402530 2014] [mpm_winnt:notice] [pid 2916:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Fri Sep 05 19:13:14.402530 2014] [core:notice] [pid 2916:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Fri Sep 05 19:13:14.871556 2014] [mpm_winnt:notice] [pid 2916:tid 240] AH00418: Parent: Created child process 2892
+[Fri Sep 05 19:14:04.676405 2014] [mpm_winnt:notice] [pid 2892:tid 252] AH00354: Child: Starting 150 worker threads.
+[Fri Sep 05 22:23:27.498321 2014] [cgi:error] [pid 2892:tid 524] [client 74.63.199.120:33979] script not found or unable to stat: K:/ArcherVMPeridot/htdocs/admin.cgi
+[Mon Sep 08 07:28:18.532605 2014] [core:warn] [pid 3436:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 08 07:28:22.716844 2014] [mpm_winnt:notice] [pid 3436:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Mon Sep 08 07:28:22.717844 2014] [mpm_winnt:notice] [pid 3436:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Mon Sep 08 07:28:22.717844 2014] [core:notice] [pid 3436:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Mon Sep 08 07:28:22.744846 2014] [mpm_winnt:notice] [pid 3436:tid 240] AH00418: Parent: Created child process 3032
+[Mon Sep 08 07:28:30.210273 2014] [mpm_winnt:notice] [pid 3032:tid 252] AH00354: Child: Starting 150 worker threads.
+[Tue Sep 09 07:44:51.241216 2014] [core:warn] [pid 5620:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Sep 09 07:44:57.881596 2014] [mpm_winnt:notice] [pid 5620:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Tue Sep 09 07:44:57.882596 2014] [mpm_winnt:notice] [pid 5620:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Tue Sep 09 07:44:57.882596 2014] [core:notice] [pid 5620:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Tue Sep 09 07:44:57.899597 2014] [mpm_winnt:notice] [pid 5620:tid 240] AH00418: Parent: Created child process 4056
+[Tue Sep 09 07:45:05.648040 2014] [mpm_winnt:notice] [pid 4056:tid 252] AH00354: Child: Starting 150 worker threads.
+[Sat Sep 20 18:32:45.903886 2014] [core:warn] [pid 3356:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Sep 20 18:32:58.654615 2014] [mpm_winnt:notice] [pid 3356:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Sat Sep 20 18:32:58.655615 2014] [mpm_winnt:notice] [pid 3356:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Sat Sep 20 18:32:58.655615 2014] [core:notice] [pid 3356:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Sat Sep 20 18:32:58.666616 2014] [mpm_winnt:notice] [pid 3356:tid 240] AH00418: Parent: Created child process 764
+[Sat Sep 20 18:33:08.363170 2014] [mpm_winnt:notice] [pid 764:tid 252] AH00354: Child: Starting 150 worker threads.
+[Sat Sep 20 19:25:49.234962 2014] [access_compat:error] [pid 764:tid 1712] [client ::1:49630] AH01797: client denied by server configuration: K:/ArcherVMPeridot/htdocs/owncloud-serv/data/htaccesstest.txt
+[Sat Sep 20 19:25:57.033408 2014] [access_compat:error] [pid 764:tid 1732] [client ::1:49634] AH01797: client denied by server configuration: K:/ArcherVMPeridot/htdocs/owncloud-serv/data/htaccesstest.txt
+[Sat Sep 20 19:26:49.694420 2014] [access_compat:error] [pid 764:tid 1736] [client ::1:49638] AH01797: client denied by server configuration: K:/ArcherVMPeridot/htdocs/owncloud-serv/data/htaccesstest.txt
+[Sat Sep 20 19:31:45.242324 2014] [access_compat:error] [pid 764:tid 1740] [client ::1:49738] AH01797: client denied by server configuration: K:/ArcherVMPeridot/htdocs/owncloud-serv/data/htaccesstest.txt
+The system cannot find the path specified.
+'which' is not recognized as an internal or external command,
+operable program or batch file.
+'which' is not recognized as an internal or external command,
+operable program or batch file.
+[Sat Sep 20 20:49:09.650969 2014] [mpm_winnt:notice] [pid 3356:tid 240] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 20 20:49:31.440216 2014] [mpm_winnt:notice] [pid 764:tid 252] AH00364: Child: All worker threads have exited.
+[Sat Sep 20 20:49:44.188945 2014] [mpm_winnt:notice] [pid 3356:tid 240] AH00431: Parent: Forcing termination of child process 764
+[Sat Sep 20 20:53:10.743759 2014] [mpm_winnt:notice] [pid 3192:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Sat Sep 20 20:53:10.810763 2014] [mpm_winnt:notice] [pid 3192:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Sat Sep 20 20:53:10.810763 2014] [core:notice] [pid 3192:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Sat Sep 20 20:53:10.955771 2014] [mpm_winnt:notice] [pid 3192:tid 240] AH00418: Parent: Created child process 5232
+[Sat Sep 20 20:53:22.036405 2014] [mpm_winnt:notice] [pid 5232:tid 252] AH00354: Child: Starting 150 worker threads.
+[Sat Sep 20 21:18:50.605834 2014] [access_compat:error] [pid 5232:tid 1692] [client ::1:50512] AH01797: client denied by server configuration: K:/ArcherVMPeridot/htdocs/owncloud-serv/data/htaccesstest.txt
+[Sat Sep 20 21:19:21.343592 2014] [access_compat:error] [pid 5232:tid 1684] [client ::1:50522] AH01797: client denied by server configuration: K:/ArcherVMPeridot/htdocs/owncloud-serv/data/htaccesstest.txt
+[Sat Sep 20 21:20:08.414285 2014] [access_compat:error] [pid 5232:tid 1684] [client ::1:50526] AH01797: client denied by server configuration: K:/ArcherVMPeridot/htdocs/owncloud-serv/data/htaccesstest.txt
+[Sat Sep 20 21:20:23.130126 2014] [access_compat:error] [pid 5232:tid 1660] [client ::1:50535] AH01797: client denied by server configuration: K:/ArcherVMPeridot/htdocs/owncloud-serv/data/htaccesstest.txt
+[Sat Sep 20 21:21:15.540124 2014] [access_compat:error] [pid 5232:tid 1676] [client ::1:50540] AH01797: client denied by server configuration: K:/ArcherVMPeridot/htdocs/owncloud-serv/data/htaccesstest.txt
+[Sat Sep 20 21:21:23.202562 2014] [access_compat:error] [pid 5232:tid 1700] [client ::1:50549] AH01797: client denied by server configuration: K:/ArcherVMPeridot/htdocs/owncloud-serv/data/htaccesstest.txt
+[Sat Sep 20 21:22:54.441781 2014] [access_compat:error] [pid 5232:tid 1668] [client ::1:50565] AH01797: client denied by server configuration: K:/ArcherVMPeridot/htdocs/owncloud-serv/data/htaccesstest.txt
+[Sat Sep 20 22:13:09.301221 2014] [mpm_winnt:crit] [pid 5232:tid 252] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Sep 20 22:13:13.155441 2014] [mpm_winnt:warn] [pid 5232:tid 472] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Sep 20 22:13:13.155441 2014] [mpm_winnt:warn] [pid 5232:tid 468] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Sep 20 22:13:38.764906 2014] [mpm_winnt:notice] [pid 5232:tid 252] AH00364: Child: All worker threads have exited.
+[Sun Sep 21 14:33:17.120048 2014] [core:warn] [pid 5780:tid 244] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Sep 21 14:33:18.579132 2014] [mpm_winnt:notice] [pid 5780:tid 244] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Sun Sep 21 14:33:18.642135 2014] [mpm_winnt:notice] [pid 5780:tid 244] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Sun Sep 21 14:33:18.642135 2014] [core:notice] [pid 5780:tid 244] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Sun Sep 21 14:33:18.873148 2014] [mpm_winnt:notice] [pid 5780:tid 244] AH00418: Parent: Created child process 5524
+[Sun Sep 21 14:33:25.366520 2014] [mpm_winnt:notice] [pid 5524:tid 252] AH00354: Child: Starting 150 worker threads.
+[Sun Sep 21 21:00:49.261012 2014] [core:warn] [pid 3936:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Sep 21 21:01:36.557717 2014] [mpm_winnt:notice] [pid 3936:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Sun Sep 21 21:01:36.557717 2014] [mpm_winnt:notice] [pid 3936:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Sun Sep 21 21:01:36.558717 2014] [core:notice] [pid 3936:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Sun Sep 21 21:01:38.331819 2014] [mpm_winnt:notice] [pid 3936:tid 240] AH00418: Parent: Created child process 3124
+[Sun Sep 21 21:01:54.807761 2014] [mpm_winnt:notice] [pid 3124:tid 252] AH00354: Child: Starting 150 worker threads.
+[Mon Sep 22 07:26:22.227018 2014] [core:warn] [pid 5372:tid 244] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 22 07:26:42.424174 2014] [mpm_winnt:notice] [pid 5372:tid 244] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Mon Sep 22 07:26:42.427174 2014] [mpm_winnt:notice] [pid 5372:tid 244] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Mon Sep 22 07:26:42.427174 2014] [core:notice] [pid 5372:tid 244] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Mon Sep 22 07:26:42.502178 2014] [mpm_winnt:notice] [pid 5372:tid 244] AH00418: Parent: Created child process 1504
+[Mon Sep 22 07:26:48.895544 2014] [mpm_winnt:notice] [pid 1504:tid 252] AH00354: Child: Starting 150 worker threads.
+[Mon Sep 22 19:13:10.970894 2014] [core:warn] [pid 1332:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 22 19:14:31.392494 2014] [mpm_winnt:notice] [pid 1332:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Mon Sep 22 19:14:31.393494 2014] [mpm_winnt:notice] [pid 1332:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Mon Sep 22 19:14:31.393494 2014] [core:notice] [pid 1332:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Mon Sep 22 19:14:33.713627 2014] [mpm_winnt:notice] [pid 1332:tid 240] AH00418: Parent: Created child process 4400
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 4400:tid 252] AH00354: Child: Starting 150 worker threads.
+[Mon Sep 22 21:01:19.488016 2014] [mpm_winnt:notice] [pid 1332:tid 240] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Sep 22 21:01:25.250172 2014] [mpm_winnt:notice] [pid 4400:tid 252] AH00364: Child: All worker threads have exited.
+[Tue Sep 23 07:42:42.032214 2014] [core:warn] [pid 592:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Sep 23 07:42:53.852890 2014] [mpm_winnt:notice] [pid 592:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Tue Sep 23 07:42:53.853890 2014] [mpm_winnt:notice] [pid 592:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Tue Sep 23 07:42:53.853890 2014] [core:notice] [pid 592:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Tue Sep 23 07:42:53.987898 2014] [mpm_winnt:notice] [pid 592:tid 240] AH00418: Parent: Created child process 4588
+[Tue Sep 23 07:43:04.197482 2014] [mpm_winnt:notice] [pid 4588:tid 252] AH00354: Child: Starting 150 worker threads.
+[Tue Oct 07 13:50:06.826559 2014] [core:warn] [pid 3292:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 07 13:57:04.632177 2014] [mpm_winnt:notice] [pid 3292:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Tue Oct 07 13:57:10.390601 2014] [mpm_winnt:notice] [pid 3292:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Tue Oct 07 13:57:10.570583 2014] [core:notice] [pid 3292:tid 240] AH00094: Command line: 'k:\\archervmperidot\\apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache'
+[Tue Oct 07 13:57:19.508689 2014] [mpm_winnt:notice] [pid 3292:tid 240] AH00418: Parent: Created child process 4356
+[Tue Oct 07 14:02:05.835054 2014] [mpm_winnt:notice] [pid 4356:tid 252] AH00354: Child: Starting 150 worker threads.
+[Tue Oct 07 15:58:50.328318 2014] [core:warn] [pid 1888:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 07 15:59:01.911318 2014] [mpm_winnt:notice] [pid 1888:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Tue Oct 07 15:59:01.911318 2014] [mpm_winnt:notice] [pid 1888:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Tue Oct 07 15:59:01.911318 2014] [core:notice] [pid 1888:tid 240] AH00094: Command line: 'k:\\archervmperidot\\apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache'
+[Tue Oct 07 15:59:02.181318 2014] [mpm_winnt:notice] [pid 1888:tid 240] AH00418: Parent: Created child process 4200
+[Tue Oct 07 15:59:11.694318 2014] [mpm_winnt:notice] [pid 4200:tid 252] AH00354: Child: Starting 150 worker threads.
+[Tue Oct 07 16:59:59.247560 2014] [core:warn] [pid 7260:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 07 17:00:08.081717 2014] [mpm_winnt:notice] [pid 7260:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Tue Oct 07 17:00:08.117681 2014] [mpm_winnt:notice] [pid 7260:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Tue Oct 07 17:00:08.117681 2014] [core:notice] [pid 7260:tid 240] AH00094: Command line: 'k:\\archervmperidot\\apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache'
+[Tue Oct 07 17:00:08.308490 2014] [mpm_winnt:notice] [pid 7260:tid 240] AH00418: Parent: Created child process 6600
+[Tue Oct 07 17:00:22.900883 2014] [mpm_winnt:notice] [pid 6600:tid 252] AH00354: Child: Starting 150 worker threads.
+[Tue Oct 07 17:49:17.136615 2014] [core:warn] [pid 2168:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 07 17:49:19.849887 2014] [mpm_winnt:notice] [pid 2168:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Tue Oct 07 17:49:19.850887 2014] [mpm_winnt:notice] [pid 2168:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Tue Oct 07 17:49:19.850887 2014] [core:notice] [pid 2168:tid 240] AH00094: Command line: 'k:\\archervmperidot\\apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache'
+[Tue Oct 07 17:49:19.879890 2014] [mpm_winnt:notice] [pid 2168:tid 240] AH00418: Parent: Created child process 8028
+[Tue Oct 07 17:49:27.502652 2014] [mpm_winnt:notice] [pid 8028:tid 252] AH00354: Child: Starting 150 worker threads.
+[Tue Oct 07 17:56:31.459043 2014] [core:warn] [pid 6320:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 07 17:56:33.214219 2014] [mpm_winnt:notice] [pid 6320:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Tue Oct 07 17:56:33.214219 2014] [mpm_winnt:notice] [pid 6320:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Tue Oct 07 17:56:33.214219 2014] [core:notice] [pid 6320:tid 240] AH00094: Command line: 'k:\\archervmperidot\\apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache'
+[Tue Oct 07 17:56:33.221219 2014] [mpm_winnt:notice] [pid 6320:tid 240] AH00418: Parent: Created child process 2496
+[Tue Oct 07 17:56:40.052903 2014] [mpm_winnt:notice] [pid 2496:tid 252] AH00354: Child: Starting 150 worker threads.
+[Tue Oct 07 18:25:21.950281 2014] [core:warn] [pid 3828:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 07 18:25:51.547974 2014] [mpm_winnt:notice] [pid 3828:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Tue Oct 07 18:25:51.547974 2014] [mpm_winnt:notice] [pid 3828:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Tue Oct 07 18:25:51.547974 2014] [core:notice] [pid 3828:tid 240] AH00094: Command line: 'k:\\archervmperidot\\apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache'
+[Tue Oct 07 18:25:51.602977 2014] [mpm_winnt:notice] [pid 3828:tid 240] AH00418: Parent: Created child process 5892
+[Tue Oct 07 18:25:57.600321 2014] [mpm_winnt:notice] [pid 5892:tid 252] AH00354: Child: Starting 150 worker threads.
+[Tue Oct 07 20:07:05.232285 2014] [core:warn] [pid 5392:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 07 20:07:15.496872 2014] [mpm_winnt:notice] [pid 5392:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Tue Oct 07 20:07:15.496872 2014] [mpm_winnt:notice] [pid 5392:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Tue Oct 07 20:07:15.496872 2014] [core:notice] [pid 5392:tid 240] AH00094: Command line: 'k:\\archervmperidot\\apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache'
+[Tue Oct 07 20:07:15.578877 2014] [mpm_winnt:notice] [pid 5392:tid 240] AH00418: Parent: Created child process 6096
+[Tue Oct 07 20:07:23.942355 2014] [mpm_winnt:notice] [pid 6096:tid 252] AH00354: Child: Starting 150 worker threads.
+[Wed Oct 08 07:17:09.785436 2014] [core:warn] [pid 5940:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Oct 08 07:17:30.869642 2014] [mpm_winnt:notice] [pid 5940:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Wed Oct 08 07:17:30.870642 2014] [mpm_winnt:notice] [pid 5940:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Wed Oct 08 07:17:30.870642 2014] [core:notice] [pid 5940:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Wed Oct 08 07:17:30.988649 2014] [mpm_winnt:notice] [pid 5940:tid 240] AH00418: Parent: Created child process 4752
+[Wed Oct 08 07:17:36.980992 2014] [mpm_winnt:notice] [pid 4752:tid 252] AH00354: Child: Starting 150 worker threads.
+[Wed Oct 08 10:23:12.172449 2014] [mpm_winnt:crit] [pid 4752:tid 252] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Oct 08 10:23:13.983273 2014] [mpm_winnt:warn] [pid 4752:tid 476] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Oct 08 10:23:13.972287 2014] [mpm_winnt:warn] [pid 4752:tid 480] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Oct 08 10:23:37.248634 2014] [mpm_winnt:notice] [pid 4752:tid 252] AH00364: Child: All worker threads have exited.
+[Wed Oct 08 10:26:56.930470 2014] [core:warn] [pid 7796:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Oct 08 10:27:59.415250 2014] [mpm_winnt:notice] [pid 7796:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Wed Oct 08 10:27:59.416248 2014] [mpm_winnt:notice] [pid 7796:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Wed Oct 08 10:27:59.416248 2014] [core:notice] [pid 7796:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache -f conf\\httpd.conf'
+[Wed Oct 08 10:28:00.684706 2014] [mpm_winnt:notice] [pid 7796:tid 240] AH00418: Parent: Created child process 4032
+[Wed Oct 08 10:28:43.802500 2014] [mpm_winnt:notice] [pid 4032:tid 252] AH00354: Child: Starting 150 worker threads.
+[Wed Oct 08 11:43:59.404876 2014] [mpm_winnt:notice] [pid 7796:tid 240] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 08 11:44:35.033952 2014] [mpm_winnt:notice] [pid 7796:tid 240] AH00431: Parent: Forcing termination of child process 4032
+[Wed Oct 08 11:53:55.991321 2014] [mpm_winnt:notice] [pid 2804:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Wed Oct 08 11:53:56.227179 2014] [mpm_winnt:notice] [pid 2804:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Wed Oct 08 11:53:56.228179 2014] [core:notice] [pid 2804:tid 240] AH00094: Command line: 'k:\\archervmperidot\\apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache'
+[Wed Oct 08 11:53:56.479028 2014] [mpm_winnt:notice] [pid 2804:tid 240] AH00418: Parent: Created child process 6924
+[Wed Oct 08 11:54:07.089658 2014] [mpm_winnt:notice] [pid 6924:tid 252] AH00354: Child: Starting 150 worker threads.
+[Wed Oct 08 12:17:49.207328 2014] [core:warn] [pid 3780:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Oct 08 12:18:18.490763 2014] [mpm_winnt:notice] [pid 3780:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Wed Oct 08 12:18:18.492758 2014] [mpm_winnt:notice] [pid 3780:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Wed Oct 08 12:18:18.493756 2014] [core:notice] [pid 3780:tid 240] AH00094: Command line: 'k:\\archervmperidot\\apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache'
+[Wed Oct 08 12:18:18.800081 2014] [mpm_winnt:notice] [pid 3780:tid 240] AH00418: Parent: Created child process 3848
+[Wed Oct 08 12:18:30.391523 2014] [mpm_winnt:notice] [pid 3848:tid 252] AH00354: Child: Starting 150 worker threads.
+[Wed Oct 08 19:19:37.443371 2014] [core:warn] [pid 4760:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Oct 08 19:22:50.193396 2014] [mpm_winnt:notice] [pid 4760:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Wed Oct 08 19:22:50.194396 2014] [mpm_winnt:notice] [pid 4760:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Wed Oct 08 19:22:50.194396 2014] [core:notice] [pid 4760:tid 240] AH00094: Command line: 'k:\\archervmperidot\\apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache'
+[Wed Oct 08 19:22:53.923609 2014] [mpm_winnt:notice] [pid 4760:tid 240] AH00418: Parent: Created child process 200
+[Wed Oct 08 19:23:50.597851 2014] [mpm_winnt:notice] [pid 200:tid 252] AH00354: Child: Starting 150 worker threads.
+[Thu Oct 09 07:24:45.129854 2014] [core:warn] [pid 6120:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Oct 09 07:24:53.183314 2014] [mpm_winnt:notice] [pid 6120:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Thu Oct 09 07:24:53.184314 2014] [mpm_winnt:notice] [pid 6120:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Thu Oct 09 07:24:53.184314 2014] [core:notice] [pid 6120:tid 240] AH00094: Command line: 'k:\\archervmperidot\\apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache'
+[Thu Oct 09 07:24:53.260319 2014] [mpm_winnt:notice] [pid 6120:tid 240] AH00418: Parent: Created child process 5928
+[Thu Oct 09 07:25:01.081766 2014] [mpm_winnt:notice] [pid 5928:tid 252] AH00354: Child: Starting 150 worker threads.
+[Thu Oct 09 08:27:26.822010 2014] [:error] [pid 5928:tid 1724] [client ::1:49576] script 'K:/ArcherVMPeridot/htdocs/settings/inde.php' not found or unable to stat
+[Thu Oct 09 13:23:06.015572 2014] [core:warn] [pid 3836:tid 240] AH00098: pid file K:/ArcherVMPeridot/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Oct 09 13:24:29.586894 2014] [mpm_winnt:notice] [pid 3836:tid 240] AH00455: Apache/2.4.9 (Win32) OpenSSL/0.9.8y PHP/5.4.27 configured -- resuming normal operations
+[Thu Oct 09 13:24:29.586894 2014] [mpm_winnt:notice] [pid 3836:tid 240] AH00456: Apache Lounge VC10 Server built: Mar 17 2014 11:15:11
+[Thu Oct 09 13:24:29.586894 2014] [core:notice] [pid 3836:tid 240] AH00094: Command line: 'k:\\archervmperidot\\apache\\bin\\httpd.exe -d K:/ArcherVMPeridot/apache'
+[Thu Oct 09 13:24:30.519708 2014] [mpm_winnt:notice] [pid 3836:tid 240] AH00418: Parent: Created child process 5724
+[Thu Oct 09 13:25:27.917226 2014] [mpm_winnt:notice] [pid 5724:tid 252] AH00354: Child: Starting 150 worker threads.
+[Thu Oct 09 15:37:42.422314 2014] [mpm_winnt:warn] [pid 5724:tid 1924] (OS 1236)The network connection was aborted by the local system.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
