@@ -12,7 +12,7 @@
                 <Allowed />
             </IpFilter>
             <Permissions>
-                <Permission Dir="E:\xampp\apps\owncloud\data">
+                <Permission Dir="K:\ArcherVMPeridot\apps\owncloud\data">
                     <Option Name="FileRead">1</Option>
                     <Option Name="FileWrite">1</Option>
                     <Option Name="FileDelete">1</Option>
@@ -66,7 +66,7 @@
                 <Allowed />
             </IpFilter>
             <Permissions>
-                <Permission Dir="E:\xampp\apps\owncloud\data">
+                <Permission Dir="K:\ArcherVMPeridot\apps\owncloud\data">
                     <Option Name="FileRead">1</Option>
                     <Option Name="FileWrite">1</Option>
                     <Option Name="FileDelete">1</Option>
@@ -100,7 +100,7 @@
                 <Allowed />
             </IpFilter>
             <Permissions>
-                <Permission Dir="E:\xampp\apps\owncloud\data">
+                <Permission Dir="K:\ArcherVMPeridot\apps\owncloud\data">
                     <Option Name="FileRead">1</Option>
                     <Option Name="FileWrite">1</Option>
                     <Option Name="FileDelete">1</Option>
@@ -132,7 +132,7 @@
                 <Allowed />
             </IpFilter>
             <Permissions>
-                <Permission Dir="E:\xampp\apps\owncloud\data">
+                <Permission Dir="K:\ArcherVMPeridot\apps\owncloud\data">
                     <Option Name="FileRead">1</Option>
                     <Option Name="FileWrite">1</Option>
                     <Option Name="FileDelete">0</Option>
